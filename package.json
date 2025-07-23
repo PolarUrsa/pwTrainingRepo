@@ -1,0 +1,25 @@
+{
+  "name": "pwtrainingrepo",
+  "version": "1.0.0",
+  "description": "Repo for playwright traning with Python",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolarUrsa/pwTrainingRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolarUrsa/pwTrainingRepo/issues"
+  },
+  "homepage": "https://github.com/PolarUrsa/pwTrainingRepo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}
