@@ -18,15 +18,15 @@ export function getUserCredentials(userType: UserType): UserCredentials {
         pass: env.CI_ADMIN_USER_PASSWORD || env.ADMIN_USER_PASSWORD!,
       },
     invalidUserAndPass:{
-        user: env.CI_WRONG_USER_USERNAME || env.WRONG_USER_USERNAME!,
-        pass: env.CI_WRONG_USER_PASSWORD || env.WRONG_USER_PASSWORD!,
+        user: 'wrong.username',
+        pass: 'invalidPassword',
       },
     invalidUsername:{
         user: env.CI_DEMO_USER_USERNAME || env.DEMO_USER_USERNAME!,
-        pass: env.CI_WRONG_USER_PASSWORD || env.WRONG_USER_PASSWORD!,
+        pass: 'invalidPassword',
       },
     invalidPassword:{
-        user: env.CI_WRONG_USER_USERNAME || env.WRONG_USER_USERNAME!,
+        user: 'wrong.user',
         pass: env.CI_DEMO_USER_PASSWORD || env.DEMO_USER_PASSWORD!,
       },
     }
