@@ -10,8 +10,7 @@ env:
   CI_DEMO_USER_PASSWORD: ${{ secrets.CI_DEMO_USER_PASSWORD }}
   CI_ADMIN_USER_USERNAME: ${{ secrets.CI_ADMIN_USER_USERNAME }}
   CI_ADMIN_USER_PASSWORD: ${{ secrets.CI_ADMIN_USER_PASSWORD }}
-  
-
+ 
 jobs:
   test:
     timeout-minutes: 60
